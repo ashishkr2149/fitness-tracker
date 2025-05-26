@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://fitnesstrack-vtv1.onrender.com/api/",
+  baseURL:
+    "https://fitness-tracker-server-ashishkr2149s-projects.vercel.app/api/",
 });
 
 export const UserSignUp = async (data) => API.post("/user/signup", data);
